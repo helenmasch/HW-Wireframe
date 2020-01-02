@@ -32,24 +32,17 @@ Section {
     width: 495px;
     height: 150px;
     margin: 20px;
+    padding: 50px;
+    border: 1px;
     float: left;
 }
 
-Aside {
+Article {
+    color: #777;
     background: #ebebeb;
-    height: 150px;
 }
 
-Footer {
-    background: #ebebeb;
-    width: 940px;
-    height: 50px;
-    margin: 20px;
-    padding: 10px;
-    border: 1px;
-}
-
-h1 {
+h1, h2, h3 {
     color: #777;
     background: #ebebeb;
 }
@@ -59,8 +52,22 @@ p {
     background: #ebebeb;
 }
 
-Article {
-    color: #777;
+Aside {
     background: #ebebeb;
+    height: 150px;
+    float: left;
+    padding: 50px;
 }
 
+Footer {
+    position: fixed;
+    left: 1;
+    bottom: 0;
+    background: #ebebeb;
+    width: 940px;
+    height: 50px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px;
+    text-align: center;
+}
